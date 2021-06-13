@@ -1,19 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    
 }
 
 #navbar {
     background-color: #be3144;
     height: 4.5rem;
     width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 #navbar-links-container {
     width: fit-content;
     position: absolute;
-    top: 2rem;
-    right: 1rem;
-
+    top: 1.4rem;
+    right: 2rem;
 }
 
 .nav-links {
@@ -63,5 +71,6 @@ body {
 
 /* Query:
     - How to make the welcome section go under the navbar?
+    - Why my pages keep needing the horizontal scroll bar?
     - 
 */
