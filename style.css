@@ -1,13 +1,13 @@
+/* --------Tags------------- */
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
+/* --------Navigation Bar------------- */
 #navbar {
     background-color: #be3144;
     height: 4.5rem;
@@ -32,6 +32,13 @@ body {
     font-size: 1.5rem;
 }
 
+/* --------Main Section------------- */
+#main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------First Section------------- */
 #welcome-section {
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
@@ -40,19 +47,24 @@ body {
 }
 
 #welcome-text {
-    width: fit-content;
-    height: fit-content;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 10rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     position: absolute;
     margin: auto;
+    text-align: center;
 }
 
 #welcome-text h1 {
     color: #f0f0f0;
     font-size: 4rem;
+    position: relative;
+    top: 3rem;
 }
 
 #welcome-text p {
@@ -61,9 +73,10 @@ body {
     font-style: italic;
     font-size: 2rem;
     position: relative;
-    bottom: 3rem;
+    top: 4rem;
 }
 
+/* --------First Section------------- */
 #projects {
     height: 100vh;
     background-color: #45567d;
