@@ -153,6 +153,7 @@ html {
     position: relative;
     top: 20%;
     font-weight: bold;
+    height: max-content;
 }
 
 #contact-links {
@@ -163,6 +164,7 @@ html {
     margin: auto;
     column-gap: 1rem;
     align-items: center;
+    height: max-content;
 }
 
 .contact-link {
@@ -178,9 +180,31 @@ html {
     margin-right: 0.5rem;
 }
 
-@media screen {}
-
-/* Query:
-    - How to make images in the same class to be the same size
-    - 
-*/
+@media (max-width:500px) {
+    #welcome-section {}
+    #welcome-text h1, #welcome-text p, #projects-header {
+        width: 100vw;
+    }
+    #projects {
+        height: max-content;
+    }
+    #projects-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    #last-project {
+        grid-column: 0;
+    }
+    #contact {
+        padding-top: 15rem;
+    }
+    #contact-span {
+        top: 0;
+    }
+    #contact-links {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        
+    }
+}
