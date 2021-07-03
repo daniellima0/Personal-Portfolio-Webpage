@@ -2,21 +2,17 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/b6760ea8bc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <tile>Personal Portfolio</tile>
 </head>
 
 <body>
-    <!-- FCC Test Suite -->
-    <div>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    </div>
 
-    <!-- Navigation Bar -->
     <nav id="navbar">
         <div id="navbar-links-container">
             <a href="#welcome-section" class="nav-links">About</a>
@@ -25,9 +21,7 @@
         </div>
     </nav>
 
-    <!-- Main Section -->
     <main id="main-section">
-        <!-- First Section -->
         <section id="welcome-section">
             <div id="welcome-text">
                 <h1>Hey, I am Daniel Lima</h1>
@@ -35,34 +29,61 @@
             </div>
         </section>
 
-        <!-- Second Section -->
         <section id="projects">
             <h2 id="projects-header">These are some of my projects</h2>
 
             <div id="projects-grid">
-                <a href="https://daniellima0.github.io/Tribute-Page/" target="_blank">
-                    <img class="projects-image" src="./images/usain-bolt.jpg" alt="">
+                <a href="https://daniellima0.github.io/tribute-page/"
+                    target="_blank">
+                    <img class="projects-image" src="./images/usain-bolt.jpg"
+                        alt="">
                     <p class="project-tile">Tribute Page</p>
                 </a>
-                <a href="https://daniellima0.github.io/Survey-Form/" target="_blank">
-                    <img class="projects-image" src="./images/survey-form.jpg" alt="">
+                <a href="https://daniellima0.github.io/survey-form/"
+                    target="_blank">
+                    <img class="projects-image" src="./images/survey-form.jpg"
+                        alt="">
                     <p class="project-tile">Survey Form</p>
                 </a>
-                <a href="https://daniellima0.github.io/Product-Landing-Page/" target="_blank">
+                <a href="https://daniellima0.github.io/product-landing-page/"
+                    target="_blank">
                     <img class="projects-image" src="./images/store.jpg" alt="">
                     <p class="project-tile">Product Landing Page</p>
                 </a>
-                <a href="https://daniellima0.github.io/Technical-Documentation-Page/" target="_blank">
+                <a href="https://daniellima0.github.io/technical-documentation-page/"
+                    target="_blank" id='last-project'>
                     <img class="projects-image" src="./images/code.png" alt="">
                     <p class="project-tile">Technical Documentation Page</p>
                 </a>
             </div>
         </section>
-        <!-- Third Section -->
-        <section>
-            <a href="https://www.facebook.com/freecodecamp" target="_blank" id="profile-link">Facebook</a>
+
+        <section id='contact'>
+            <span>Let's work together...</span>
+            <div id='contact-links'>
+                <a href="https://www.linkedin.com/in/danielmlima/"
+                    target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <span>Linkedin</span>
+                </a>
+                <a href="https://github.com/daniellima0" target="_blank"
+                    class="contact-link">
+                    <i class="fab fa-github fa-2x"></i>
+                    <span>Github</span>
+                </a>
+                <a href="mailto:danielmlimag@gmail.com" target="_blank"
+                    class="contact-link">
+                    <i class="far fa-envelope fa-2x"></i>
+                    <span>Email</span>
+                </a>
+            </div>
         </section>
     </main>
+    <!-- FCC Test Suite -->
+    <div>
+        <script
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
 </body>
 
 </html>
